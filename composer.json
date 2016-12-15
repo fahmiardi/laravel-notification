@@ -1,0 +1,29 @@
+{
+    "name": "fahmiardi/laravel-notification",
+    "description": "Various laravel notifications channels",
+    "keywords": [
+        "sns",
+        "laravel",
+        "notification"
+    ],
+    "homepage": "https://github.com/fahmiardi/laravel-notification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahmi Ardi",
+            "email": "f4hem.net@gmail.com",
+            "homepage": "https://github.com/fahmiardi",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.0",
+        "illuminate/notifications": "~5.0",
+        "aws/aws-sdk-php": "^3.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fahmiardi\\Laravel\\Notifications\\": "src/"
+        }
+    }
+}
