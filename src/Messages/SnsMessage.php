@@ -1,6 +1,6 @@
 <?php
 
-namespace Fahmiardi\Laravel\Notifications\Messages;
+namespace Fahmiardi\Notifications\Messages;
 
 class SnsMessage
 {

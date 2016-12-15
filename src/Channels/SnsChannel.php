@@ -1,9 +1,9 @@
 <?php
 
-namespace Fahmiardi\Laravel\Notifications\Channels;
+namespace Fahmiardi\Notifications\Channels;
 
 use Illuminate\Notifications\Notification;
-use Fahmiardi\Laravel\Notifications\Messages\SnsMessage;
+use Fahmiardi\Notifications\Messages\SnsMessage;
 use Aws\Sns\SnsClient;
 
 class SnsChannel

@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fahmiardi\\Laravel\\Notifications\\": "src/"
+            "Fahmiardi\\Notifications\\": "src/"
         }
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Fahmiardi\Laravel\Notifications;
+namespace Fahmiardi\Notifications;
 
 use Illuminate\Support\ServiceProvider;
-use Fahmiardi\Laravel\Notifications\Channels\SnsChannel;
+use Fahmiardi\Notifications\Channels\SnsChannel;
 use Aws\Sns\SnsClient;
 
 class NotificationServiceProvider extends ServiceProvider

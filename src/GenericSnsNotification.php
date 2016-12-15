@@ -1,9 +1,9 @@
 <?php
 
-namespace Fahmiardi\Laravel\Notifications;
+namespace Fahmiardi\Notifications;
 
 use Illuminate\Notifications\Notification;
-use Fahmiardi\Laravel\Notifications\Channels\SnsChannel;
+use Fahmiardi\Notifications\Channels\SnsChannel;
 
 class GenericSnsNotification extends Notification
 {
@@ -33,7 +33,7 @@ class GenericSnsNotification extends Notification
      * Get the sns message representation of the notification.
      *
      * @param  mixed  $notifiable
-     * @return \Fahmiardi\Laravel\Notifications\Messages\SnsMessage
+     * @return \Fahmiardi\Notifications\Messages\SnsMessage
      */
     public function toSns($notifiable)
     {
