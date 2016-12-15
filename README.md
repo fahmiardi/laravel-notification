@@ -21,7 +21,7 @@ return [
         'key' => env('SNS_KEY'),
         'secret' => env('SNS_SECRET'),
         'region' => env('SNS_REGION'),
-        'profile' => env('AWS_PROFILE'),
+        'profile' => env('AWS_PROFILE'), // keep this value empty when using credentials
     ],
 ];
 ```
@@ -40,7 +40,7 @@ $user->notify(
 
 Create your own:
 
-Read the official page (#Creating Notifications)[https://laravel.com/docs/5.3/notifications#creating-notifications]
+Read the official page https://laravel.com/docs/5.3/notifications#creating-notifications
 
 ```php
 <?php
